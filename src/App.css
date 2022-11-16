@@ -1,0 +1,48 @@
+.User {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 600px;
+  margin: 50px;
+}
+
+.List {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid silver;
+  border-left: 1px solid silver;
+}
+
+.List-item {
+  width: 300px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  border-right: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+
+.Details {
+  width: 300px;
+  margin-left: 30px;
+}
+
+.Details-container {
+  border-top: 1px solid silver;
+  border-left: 1px solid silver;
+}
+
+.Details-container>div {
+  padding: 10px 20px;
+  border-right: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+
+.Details-container>.Details-avatar {
+  padding: 0;
+}
+
+.Details-avatar>img {
+  width: 100%;
+  display: block;
+}
